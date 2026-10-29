@@ -36,7 +36,12 @@ function App() {
       <h1>Welcome to the Counter App</h1>
       <h2>Current count: {counter}</h2>
       {message && <p>{message}</p>}
-      <button onClick={addValue}>add value</button>
+      <button
+        onClick={addValue}
+        className="  py-2 px-4  active:scale-105 scale-125 active:transition-all duration-50 font-semibold rounded bg-gray-100 text-gray-800  "
+      >
+        add value
+      </button>
       <br />
       <button onClick={subtractValue}>subtract value</button>
       <br />
