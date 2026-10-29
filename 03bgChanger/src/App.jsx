@@ -26,7 +26,7 @@ function App() {
             Orange
           </button>
           <button
-            className="otline-none px-4 rounded-2xl py-2 border-1 border-black"
+            className="otline-none px-4 rounded-2xl py-2 border border-black"
             style={{ backgroundColor: "white" }}
             onClick={() => setColor("white")}
           >
