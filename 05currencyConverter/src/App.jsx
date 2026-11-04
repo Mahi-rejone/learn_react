@@ -1,11 +1,8 @@
-import { useState } from 'react'
-
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-
+      <h2 className="text-5xl">Currency app    </h2>
     </>  
   )
 }
